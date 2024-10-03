@@ -1,0 +1,361 @@
+img { /* ??? is this bad form at all to just make img?? Should I do an ID here instead? */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+strong {
+  font-weight: 700;
+  color: #2d68c4;
+  /* background-color: rgb(242, 169, 0, 0.3); */
+}
+
+a {   
+  color: #2d68c4;
+  text-decoration: underline;
+  text-decoration-color: #2d68c4;
+}
+
+a:active {
+  color: red;
+}
+
+a:hover {
+  background-color: lightgray;
+  /* color: black; */
+}
+
+ul {
+  margin: 15px 0px 10px 0px;
+}
+
+ul > li > ul {
+  margin: 0px 0px 0px 0px;
+}
+
+.middle-section .volunteering {
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.middle-section .card {
+  border-radius: 15px;
+  width: 3202x;
+  min-height: 435px;
+  margin: 15px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.middle-section .card:hover { 
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.05s ease-in;
+  cursor: pointer;
+}
+
+/* !!! FIX THE HOVER ABOVE*/
+/* .middle-section .projectLink:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.05s ease-in;
+  cursor: pointer;
+} */
+
+.middle-section .card div {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 190px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.middle-section .card h1 {
+  margin: 12px 18px;
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+}
+
+.middle-section .card h2 {
+  margin: 12px 18px;
+  text-decoration: none;
+  color: rgb(87, 87, 87);
+  font-size: 17px;
+}
+.middle-section .card p {
+  margin: 12px 18px;
+  text-decoration: none;
+  color: rgb(87, 87, 87);
+  font-size: 14px;
+}
+
+.projectLink {
+  text-decoration: none;
+}
+
+.projectLink:hover {
+  background-color: #f2f6ff;
+}
+
+
+Link:hover {
+  text-decoration: none;
+}
+
+.funds-raised {
+  color: red;
+  font-weight: 400;
+  background-color: #fff;
+  border: 1px solid #666667;
+  padding: 0px 2px 0px 2px;
+  border-radius: 3px;
+}
+
+.flex-box-image {
+  margin: 20px auto 20px auto;
+  display: block;
+  width: 250px;
+  height: auto;
+}
+
+.icon-image {
+  margin: auto;
+  display: inline-block;
+  padding-top: 0px;
+  height: 30px;
+  width: auto;
+}
+
+.intro-flex-div > .icon-image {
+  height: 45px;
+  width: auto;
+}
+
+.header-text {
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #000;
+  font-family: "Nunito";
+  font-size: 25px; 
+  margin-top: 10px;
+  margin-bottom: 0px;
+  /* display: inline-block; */
+}
+
+.subheader {
+  /* color: #666667; */
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Nunito";
+  margin: 5px 0px 5px 0px;
+  color: black;
+}
+
+.flex-main-text {
+  color: #4c4e4e;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+.middle-section {
+  /* background-color: #666667; */
+  background-color: white;
+  /* background-color: black; */
+  width: 100%;
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mid-section-txt {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+#middle-flex-container {
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.volunteering-img {
+  padding: 10px 2px 0px 2px; /* padding: top right bottom left; */
+  height: 230px;
+  width: auto;
+  /* border-radius: 3px; */
+}
+
+#volunteering-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.work-flex-div {
+  width: 50%;
+  margin: auto 5px auto 5px; /* margin: top right bottom left; */
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  padding: 20px 30px 0px 30px; /* padding: top right bottom left; */
+  min-height: 370px;
+}
+
+.atkinson-hyperlegible-regular {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-bold {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-regular-italic {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.atkinson-hyperlegible-bold-italic {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.blue-background-color {
+  background-color: #f2f6ff;
+}
+
+.green-background-color {
+  background-color: #f4f9f4;
+}
+
+.yellow-background-color {
+  /* background-color: #fffbeb; */
+  background-color: rgba(255, 246, 226, 0.902);
+}
+
+.light-text-color {
+  color: #fff;
+}
+
+.secondary-color {
+  color: #666667;
+}
+
+.rounded-div {
+  margin: auto 5px auto 5px; /* margin: top right bottom left; */
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  padding: 20px 30px 20px 30px; /* padding: top right bottom left; */
+  min-width: fit-content;
+/* height: 400px; */
+}
+
+table {
+  /* border: 1px solid; */
+  border-radius: 3px;
+  background-color: black;
+}
+
+thead {
+  font-weight: bolder;
+  background-color: lightgray;
+}
+
+tbody {
+  background-color: #f2f6ff;
+}
+
+tfoot {
+  background-color: #f2f6ff;
+  font-style: italic;
+  font-size: small;
+  /* font-weight: 200; */
+}
+
+tfoot > tr > th {
+  font-weight: 400; 
+  background-color: rgba(255, 246, 226, 0.3);
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+
+td {
+  /* border: 1px solid; */
+  padding: 5px 5px 5px 5px;
+  font-size: 13px;
+}
+
+.inner-list {
+  list-style-type: square;
+}
+
+.ucla-blue-color {
+  color: #2d68c4;
+  /* -webkit-text-stroke: 0.5px #f2a900; */
+}
+
+.ucla-gold-color {
+  color: #f2a900;
+}
+
+.ucla-colors {
+  color: #2d68c4;
+  background-color: rgb(242, 169, 0, 0.3);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.top-padding {
+  padding: 15px 0px 0px 0px;
+}
+
+.small-light-font {
+  font-size: 14px;
+  color: #666667;
+}
+
+/* .ucla-colors-swapped {
+  background-color: rgb(45, 104, 196, 0.6);
+  color: rgb(242, 169, 0);
+} */
+
+
+@media only screen and (max-width: 1200px) {
+  .middle-section .volunteering {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .middle-section .volunteering {
+    grid-template-columns: 1fr;
+  }
+}

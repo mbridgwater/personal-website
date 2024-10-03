@@ -1,0 +1,211 @@
+.outer {
+    /* font-family: "Atkinson Hyperlegible", sans-serif; */
+    font-style: normal;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+
+}
+
+body {
+  /* background-color: #AB9F9D; */
+  /* background-color: rgba(171, 159, 157, 0.4); */
+  background: linear-gradient(to right, rgba(209, 190, 176, 0.5) 35%, rgba(171, 159, 157, 0.9) 35%);
+  /* background: linear-gradient(to right, rgba(171, 159, 157, 0.9) 35%, rgba(209, 190, 176, 0.6) 35%); */
+  /* background: linear-gradient(45deg, #B0A7E8, #EDE8F5); */
+  /* background: repeating-linear-gradient(45deg, #EDE8F5, #B0A7E8 10%, #9B89E8 20%); */
+  /* background: linear-gradient(45deg, 
+  ); */
+  /* 
+  3D52A0
+  7091E6
+  8697C4
+  ADBBDA
+  EDE8F5
+
+  ---
+  #383F51
+  #DDDBF1
+  #3C4F76
+  #D1BEB0
+  #AB9F9D
+  */
+}
+
+img { /* ??? is this bad form at all to just make img?? Should I do an ID here instead? */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+p {
+  margin: 5px 0px 5px 0px;
+}
+
+#header-image {
+  /* border-radius: 28px; */
+  height: 300px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.text-wrap{
+  /* background-color: #D1BEB0; */
+  /* background-color: #E5E2DF; */
+  background-color: #F4EFEC;
+  padding: 30px;
+  /* border-radius: 35px; */
+  /* margin: 20px; */
+  display: inline-block;  
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+  /* border: 3px solid #AB9F9D;  Optional: Adds a border around the box */
+}
+
+.img-wrap{
+  /* background-color: #D1BEB0; */
+  /* background-color: #E5E2DF; */
+  background-color: #8C7C72;
+  padding: 15px;
+  /* border-radius: 35px; */
+  /* margin: 20px; */
+  display: inline-block;  
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+  /* border: 3px solid #AB9F9D;  Optional: Adds a border around the box */
+}
+
+.icon-image {
+  margin: auto;
+  display: inline-block;
+  padding-top: 0px;
+}
+
+.intro-flex-div > .icon-image {
+  height: 45px;
+  width: auto;
+}
+
+.subtext {
+  color: #383F51;
+  font-size: 22px;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+#header-flex-container {
+  display: flex;
+  width: 75%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
+  /* justify-content: center; Align content horizontally inside #header-flex-container */
+  align-items: center;     /* Center content vertically inside #header-flex-container */
+  height: 100%;
+  /* padding-top: 150px;
+  padding-bottom: 150px; */
+}
+
+.intro-flex-div {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.atkinson-hyperlegible-regular {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-bold {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-regular-italic {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.atkinson-hyperlegible-bold-italic {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.ucla-blue-color {
+  color: #2d68c4;
+  /* -webkit-text-stroke: 0.5px #f2a900; */
+}
+
+.ucla-gold-color {
+  color: #f2a900;
+}
+
+.ucla-colors {
+  color: #2d68c4;
+  background-color: rgb(242, 169, 0, 0.3);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.small-light-font {
+  font-size: 14px;
+  color: #666667;
+}
+
+/* h1 {
+  font-weight: 700;
+  font-size: 50px; 
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Nunito";
+  color: #1340bb
+} */
+
+/* h1 span {
+  position: relative;
+  opacity: 0;
+  animation: move-text 1.25s forwards;
+} */
+/* 
+@keyframes move-text {
+  0% { left: -3em; opacity: 1; }
+  50% { left: 3em; }
+  100% { left: 0; opacity: 1; }
+} */
+
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #1340bb;
+  animation: typing 3.5s steps(40, end), blink .75s step-end infinite;
+  font-family: monospace;
+  /* font-size: 1.5em; */
+  font-size: 32px; 
+  margin-top: 5px;
+  margin-bottom: 15px;
+  /* color: #1340bb */
+  /* color: #3C4F76; */
+  color: #4A5F8C;
+}
+/* !!! Add a way for when you decrease the size for the type writer to not look like shit */
