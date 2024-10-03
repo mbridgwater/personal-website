@@ -12,9 +12,9 @@
 body {
   /* background-color: #AB9F9D; */
   /* background-color: rgba(171, 159, 157, 0.4); */
-  background: linear-gradient(to right, rgba(209, 190, 176, 0.5) 35%, rgba(171, 159, 157, 0.9) 35%);
-  /* background: linear-gradient(to right, rgba(171, 159, 157, 0.9) 35%, rgba(209, 190, 176, 0.6) 35%); */
-  /* background: linear-gradient(45deg, #B0A7E8, #EDE8F5); */
+  /* background: linear-gradient(to right, rgba(209, 190, 176, 0.5) 35%, rgba(171, 159, 157, 0.9) 35%); */
+  background: linear-gradient(to right, rgba(171, 159, 157, 0.9) 35%, rgba(209, 190, 176, 0.6) 35%);
+  /* background: linear-gradient(to right, rgba(171, 159, 157, 0.9) 35%, rgba(209, 190, 176, 0.6) 100%); */
   /* background: repeating-linear-gradient(45deg, #EDE8F5, #B0A7E8 10%, #9B89E8 20%); */
   /* background: linear-gradient(45deg, 
   ); */

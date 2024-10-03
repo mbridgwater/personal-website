@@ -1,41 +1,28 @@
 // Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Navbar.css';  // Import the external CSS file
 
 const Navbar = () => {
   return (
-    <nav style={navStyle}>
-      <ul style={ulStyle}>
+    <nav className="navbar">
+      <div className="navbar-logo">
+        Missy Bridgwater&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Computer Science
+      </div>
+      <ul className="navbar-list">
         <li>
-          <Link to="/" style={linkStyle}>Home</Link>
+          <Link to="/" className="navbar-link">Home</Link>
         </li>
         <li>
-          <Link to="/about" style={linkStyle}>Work and Experience</Link>
+          <Link to="/about" className="navbar-link">Work and Experience</Link>
         </li>
         <li>
-          <Link to="/contact" style={linkStyle}>Contact</Link>
+          <Link to="/contact" className="navbar-link">Contact</Link>
         </li>
       </ul>
     </nav>
   );
 };
 
-// !!! improve navbar style, make thicker and put stuff on LHS and improve hover look
-
-const navStyle = {
-  padding: '1rem',
-  backgroundColor: '#333',
-};
-
-const ulStyle = {
-  display: 'flex',
-  justifyContent: 'space-around',
-  listStyle: 'none',
-};
-
-const linkStyle = {
-  color: 'white',
-  textDecoration: 'none',
-};
-
 export default Navbar;
+

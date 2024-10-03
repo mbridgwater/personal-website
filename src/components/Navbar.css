@@ -1,0 +1,66 @@
+/* Navbar.css */
+
+/* Navbar styles */
+
+.navbar-logo {
+    font-size: 1rem; /* Larger font size for the logo */
+    font-weight: bold; /* Makes the text bold */
+    text-transform: uppercase;
+    color: #383F51; /* Matches the text color of the links */
+}
+
+
+.navbar {
+    background-color: #F4EFEC; /* Light background color */
+    padding: 2rem 3rem 2rem 2rem; /* Adjust the padding for a thicker navbar */
+    /* padding-left: 4rem; */
+    position: sticky; /* Makes navbar sticky */
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; /* Positions the items to the right */
+    align-items: center; /* Centers items vertically */
+  }
+  
+  /* Navbar list */
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 0rem; /* Adds space between navbar items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar links */
+  .navbar-link {
+    color: #383F51; /* Text color */
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 2rem 2.5rem; /* Padding around the link to increase clickable area */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover effect for navbar links */
+  .navbar-link:hover {
+    background-color: #DDDBF1; /* Highlight color on hover */
+    color: #3C4F76; /* Slightly darker text color */
+  }
+  
+  /* Add active state or for selected items, if needed */
+  .navbar-link:active,
+  .navbar-link:focus {
+    /* background-color: #D1BEB0;
+    color: #3C4F76; */
+
+    background-color: #D1BEB0;
+    color: #3C4F76;
+    padding: 0.2rem 1rem; /* Adds small space around the text */
+    margin: 0rem 1.5rem;
+    border-radius: 4px; /* Rounds the corners for a softer look */
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
